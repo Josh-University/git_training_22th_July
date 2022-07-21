@@ -1,0 +1,7 @@
+We can add multiple remote repositories in a same project using the following syntax:
+1.Create a remote Repository in your Git account.
+2.Execute-git remote add <remoteRepo_name> <remoteRepo_url> in your local system.
+
+Use case-
+We use remote repositories because it saves our local disk space. Also, we use it when
+we want to share our code to the team for project purposes.

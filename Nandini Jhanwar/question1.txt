@@ -1,0 +1,15 @@
+Cherry Pick-
+Cherry pick is basically a command in git which let's us bring changes of a specific commit from one branch into another branch.
+We can pick one or more specific commits using their commit id's.
+
+
+Use case of cherry pick-
+Suppose we are working on a main branch and accidently we shifted to any other branch and made some of the commits in it.
+So now we will have to merge the branch in main branch, but we don't want all the commits of that branch in main branch, in 
+this case we will use cherry pick to take only the specific commit of that branch into the main branch.
+
+Steps of cherry pick-
+1. Make changes in a file in some other branch and commit. 
+2. Switch to your branch.
+3. Execute command  "git cherry-pick commitId".
+4. Testing for cherry pick.
