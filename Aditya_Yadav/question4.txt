@@ -1,0 +1,4 @@
+To delete a commit or unstage the staged changes, we use revert,soft reset,hard reset.
+With revert we specify the reference id of the commit we want to delete and also the number of commits before it after tild. git revert ref_id ~count. Data is also deleted upto previous commit and log file has a log about revert.
+With soft reset, only staged changes are unstaged thus only deleting the commit, commit from log file is also deleted, data is not deleted. git reset --soft ref_id ~count. 
+With hard reset, only staged changes are unstaged thus deleting the commit, commit from log file is also deleted, data is deleted upto previous commit. git reset --hard ref_id ~count. 
