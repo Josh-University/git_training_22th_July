@@ -11,5 +11,5 @@ this case we will use cherry pick to take only the specific commit of that branc
 Steps of cherry pick-
 1. Make changes in a file in some other branch and commit. 
 2. Switch to your branch.
-3. Execute command  "git cherry-pick commitId".
-4. Testing for cherry pick.
+3. Execute command  "git cherry-pick <commitId>".
+4. Testing for cherry pick.    //Line added from another commit in some other branch.
