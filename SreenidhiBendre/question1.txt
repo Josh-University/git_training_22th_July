@@ -1,0 +1,14 @@
+cherry-pick
+
+- it allows to pick a certain commit from one branch and make changes of that commit to the current branch
+- Use Cases:
+	1. Commit is made in a wrong branch
+	2. Share resources between to feature branches can be exchanged
+	3. Apply quick fixes for bugs by patching it with with explicit bug patching commit
+
+- Steps:
+	1. Choose the commit ID that is to be cherry-picked
+	2. Go to the branch where you want this commit to be put
+	3. use the command ```git cherry-pick [commit_id]```
+	4. Check git log to confirm the commit
+
