@@ -1,0 +1,13 @@
+Git cherry-pick command allows picking commits from one branch and patching it into another. The commits to be picked are referenced by their names(id) and the command cherry-pick is used with this reference in the target branch.
+Use cases:
+1. It can be used when a commit is made accidently in the wring branch. We can cherry-pick the commit in the correct branch and revert the changes in the previous branch.
+2. If a developer is dependent on a data structure on any other update from another developer, he can cherry-pick the commit of another developer.
+3. A bug is fixed and other developers want to work on updated code, the commit that fixed bug can be referrenced.
+
+Steps:
+1. Commit the changes in any of the branch.
+2. With git log command open the log for the same branch.
+3. Copy the reference id of the commit.
+4. Checkout to the target branch with git checkout.
+5. With git cherry-pick reference command commit the referenced commit the target branch.(Here reference refers to reference id)
+

@@ -1,0 +1,5 @@
+To set up multiple remote repositories the syntax is 'git remote add <name> <url>' where the name is the name of remote and the url is the url pointing to a remote git repository.
+Different origins would be required if
+- Each one would be pointing to different urls.
+- If pointing to the same URL, different branches can be assigned different remotes for working.
+ 
