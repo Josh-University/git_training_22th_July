@@ -1,0 +1,10 @@
+--force push updates the remote hardly as per local, it overwrites the files on remote as per local forcibly
+--force-with-lease push updates the remote softly as per local, it does not overwrite the files on remote
+
+Use cases:
+If a developer rebases and combines commits without changing the data, he will not be able to push as the history would have been changed, with force-with-lease he will be able to push.  
+To avoid overwritting of files on remote as contrary to force push.
+
+
+To use --force-with-lease, used "git push --force-with-lease <remote> <branchName>".
+To use --force, used "git push --force <remote> <branchName>".

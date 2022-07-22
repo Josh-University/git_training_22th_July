@@ -1,0 +1,1 @@
+To unstage changes from staged area we use 'git reset' command.
