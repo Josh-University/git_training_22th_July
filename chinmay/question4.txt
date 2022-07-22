@@ -1,0 +1,7 @@
+We can delete one or multiple commits using hard reset
+
+git reset --hard HEAD~1
+
+We can specify any number at the place of 1
+The mentioned number of commits starting from head will get deleted.
+Hard reset also resets the changes in the modified file.
