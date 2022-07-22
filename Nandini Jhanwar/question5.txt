@@ -1,0 +1,6 @@
+1. Checked git log.
+2. Merged two commits.
+3. Used "git push <repoName> <branchName>" - this was rejected because history was changed.
+4. To use --force-with-lease, used "git push --force-with-lease <repoName> <branchName>".
+5. To use --force, used "git push --force <repoName> <branchName>".
+ 
