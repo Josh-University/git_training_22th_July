@@ -1,0 +1,3 @@
+To delteone or multiple commits permanently we will use reset command.
+git reset --hard HEAD~(number)
+number specifies the number of commits to be permannetly deleted after the HEAD.

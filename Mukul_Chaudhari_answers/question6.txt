@@ -1,0 +1,2 @@
+To unstage changes from the staging area we use the git reset command.
+It will remove the changes from the staging area.
