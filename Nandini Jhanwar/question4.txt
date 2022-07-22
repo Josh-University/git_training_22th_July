@@ -1,0 +1,12 @@
+command to delete a single commit parmanently:
+	git reset --hard HEAD~
+
+command to delete multiple commits parmanently:
+	git reset --hard HEAD~[number of commits you want to delete starting from the head]
+
+Use "git log" to check whether your commits are deleted or not.
+
+
+
+
+
