@@ -4,7 +4,12 @@
 4. To use --force-with-lease, used "git push --force-with-lease <repoName> <branchName>".
 5. To use --force, used "git push --force <repoName> <branchName>".
 
+Difference:
+--force changes the content in remote branch. It overwrites the remote branch with the changes on local branch.
+
+--force-with-lease does not overwrites the changes on remote branch.
 
 Usage:
-1. We can use --force when we do not worry about the latest commits, or they do not matter that much done in remote repository and we are okay with the overlapping history or commits in local repository.
+1. We can use --force when we do not worry about the newly done commits on remote branch, so that the overlapping of history won't matter.
+2. 
  
