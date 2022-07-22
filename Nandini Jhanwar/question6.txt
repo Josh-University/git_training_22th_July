@@ -1,3 +1,12 @@
 step1
 
 step2
+
+Steps performed:
+1. Written step1 in question6.txt
+2. checked "git status", it shows the file in unstaged area.
+3. execute "git add question6.txt"
+4. check "git status". File comes in staged area.
+4. execute "git reset".
+5. Checked "git status".
+6. File moves from staged to unstaged area.
