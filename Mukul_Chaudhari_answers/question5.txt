@@ -1,0 +1,5 @@
+Lets suppose I made some chnages in a file in my local storage.Now if I push the file,but if someone has already made some changes, then I wont be able to push my chnages.
+I will have to pull again.
+So to directly overwrite the files at the repo, I will use --force push command.
+It will remove all the previous changes and put all the files on my local to the repo.
+It is not recommeneded. 

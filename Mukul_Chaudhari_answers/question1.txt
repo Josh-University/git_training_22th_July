@@ -1,0 +1,8 @@
+git cherry pick command is used when if the user mistakenly commits a file on another branch.
+By using this command he can commit the file on the requirednecessary branch.
+The commit remains on both the branches.
+Syntax:- git cherry-pick ref_id
+Steps:-
+Copy the ref_id of the commit you want in the other branch.
+Move to the required branch.
+git cherry-pick ref_id.After executing this command the commi can be seen on bo of the branches.
