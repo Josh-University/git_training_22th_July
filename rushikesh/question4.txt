@@ -1,2 +1,2 @@
---force replaces the remote branch with our local branch
---force-with-lease does not overrite changes in the remote branch, it will keep the changes made by other developers as it is.
+we can delete one or more commits 
+for that we can use the command git rebase -i HEAD~1
