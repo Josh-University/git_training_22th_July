@@ -1,0 +1,2 @@
+git reset coomand is used to unstage changes from the staged area
+command - git reset HEAD -- path/to/file
