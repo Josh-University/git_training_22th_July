@@ -1,0 +1,11 @@
+Answer 4:
+
+Generally, the git reset command is used for deleting the latest commits in Git.
+
+To delete the most recent commit, run the command below:
+
+git reset --hard HEAD~1
+
+To delete the N-th latest commits, you should use HEAD~N as the argument of git reset.
+
+git reset --hard HEAD~N

@@ -1,0 +1,19 @@
+Answer 2:
+
+If you are working on a big project, then it is inevitable that you need to work with multiple repositories.
+
+That’s why you need to sync your local code base with multiple Git remote repositories.
+
+For example, if your source code is:
+On Github for issues tracking
+On Heroku for production
+On Some Other Git repo
+
+Using git this way is actually quite simple.
+ You add remotes in the same way that you would push an existing folder, except instead of adding the “origin” remote, you give it a different name.
+
+git remote add <name> <url>
+Then, when you want to push to the second remote, add the remote name and branch to your push command:
+
+git push second master
+
