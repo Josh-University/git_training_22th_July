@@ -3,4 +3,8 @@
 3. Used "git push <repoName> <branchName>" - this was rejected because history was changed.
 4. To use --force-with-lease, used "git push --force-with-lease <repoName> <branchName>".
 5. To use --force, used "git push --force <repoName> <branchName>".
+
+
+Usage:
+1. We can use --force when we do not worry about the latest commits, or they do not matter that much done in remote repository and we are okay with the overlapping history or commits in local repository.
  
