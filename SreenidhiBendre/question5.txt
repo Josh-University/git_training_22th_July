@@ -1,0 +1,6 @@
+- git push 
+1. --force flag
+	it rewrites the work on the remote with local data
+2. --force-with-lease
+	it ensures one does not overwrite any work in the remote. 
+	used when commit history is changed
