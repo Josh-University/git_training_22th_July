@@ -1,0 +1,11 @@
+- deleting single or multiple commit
+
+1. using git rebase:
+	```git rebase -i HEAD~N```
+	replace pick with d(drop) to drop that commit
+2. using git reset with commit id:
+	```git reset --HARD [commit_id]```
+	deletes all the commits after commit_id. the HEAD now points to commit_id
+3. using git reset with head:
+	```git reset HEAD~N```
+	resets the head to Nth previous commit
