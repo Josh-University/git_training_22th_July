@@ -1,0 +1,6 @@
+git push --force does not check for the any differences in remote and the local files.
+It directly overwrites the the remote file with the local file.
+
+git push --force-with-lease whereas do not overwrite the remote repo. It checks the logs and update the differences.
+Suppose there are different commits on remote repo. But the user merge commits in his local and tries to push, the difference is noted and is not allowed to push.
+But actually there is no change in the data just the commits are merged. In this case --force-with-lease is used so that the merged commits are updated on remote.

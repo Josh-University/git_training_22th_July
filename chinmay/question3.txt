@@ -1,0 +1,5 @@
+Multiple commits can be merged into single commit by by using the following command.
+git rebase -i HEAD~""#number
+
+The #number is the number of commits that the are supposed to be merged.
+The commits starting from head will get merged into one commit and a new ID will get assigned to it. 

@@ -1,0 +1,15 @@
+Cherry-pick is basically a process to pick a commit from certain branch and paste it in another branch.
+A copy of commit is created on another branch.
+ 
+Use cases: If the commits are made on the wrong branch by mistake then the developer can cherry pick the commit from that branch and paste it in his/her working branch. After this the commit from wrongly
+pasted branch can be revoked. 
+
+Steps:
+Suppose there is one feature "feature-login" branch apart from main branch
+
+1. Checkout to main branch
+   git checkout master
+2. Apply cherry pick on required commit of feature branch
+   git cherry-pick "#commit reference"
+
+This will create a copy of that particular commit and paste it in master branch.

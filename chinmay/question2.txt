@@ -1,0 +1,6 @@
+We can set multiple repos for the same project by changing the name of the origin while connecting the remote to local.
+When we commit any changes in any of the file in local, while pushing we have to specify the origin name. 
+The committed changes will be pushed to that particular repo only.
+
+USe case:
+When the project has very complex structure and number of people working on the project are high then the project must have multiple repos.
