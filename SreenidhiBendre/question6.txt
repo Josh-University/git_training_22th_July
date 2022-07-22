@@ -1,0 +1,7 @@
+- unstage staged changes
+
+
+we use the ```git reset``` command to undo the changes.
+it moves files from staged area to the unstaged area
+
+	

@@ -1,0 +1,6 @@
+git push --force abd --force-with-lease difference:
+1. --force flag
+	1. it rewrites the work on the remote with local data
+2. --force-with-lease
+	1. it ensures one does not overwrite any work in the remote
+	2. used when commit history is changed
