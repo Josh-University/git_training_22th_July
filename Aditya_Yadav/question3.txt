@@ -1,0 +1,3 @@
+To combine two or more commits into one we use interactive rebase mode.
+The command is 'git rebase -i HEAD~3' where head is reference to the commit(another reference id can also be used) and figures after ~ indicate the number of commits to be combined before reference.
+Once we rebase the commits over current head, we add squash to two or more commits we want to combine and then we exit the prompt which executes the command.
