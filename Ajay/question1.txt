@@ -1,0 +1,23 @@
+Cherry-pick brings in changes from a specific commit from a different branch to our current working branch.
+
+In our working branch, the commit that we had cherry-picked has a different commit id than the commit id from where we had picked it.
+
+use cases:
+1. We can take the changes from a specific commit instead of the whole branch.
+2. consider I had 2 branches dev1 and dev2
+	if I had to commit the changes from dev1 but bimistakly I commit the changes from dev2 then in order to correct it I have to delete that commit checkout to dev1 and make the changes again and commit it through dev1 but we can simply use cherry-pick to copy the commit changes to dev1.
+3. We can cherry-pick multiple commits.
+
+
+
+working:
+1. Consider I had 2 branches dev1 and dev2.
+2. I want to copy the specific commit from dev2 to dev1.
+3. Then checkout to dev2                                                   --> git checkout dev2
+4. Do the log to get the commit id                                         --> git log
+5. Copy the commit id of that specific commit.
+6. Checkout to dev1.                                                       --> git checkout dev1
+7. Then do the cherry-pick                                                 --> git cherry-pick < commit-id >
+8. If multiple commits are there that we have to copy then                 --> git cherry-pick < commit-id1 > < commit-id2 > < commit-id3 >
+9. do log of dev1                                                          --> git log
+
