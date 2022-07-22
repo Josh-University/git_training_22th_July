@@ -1,0 +1,5 @@
+Steps for combining multiple commits into single commit are:
+1. Run command "git rebase" in interactive mode.
+2. Type Squash.
+3. Choose between commit messages you want to merge.
+4. Push Changes.
