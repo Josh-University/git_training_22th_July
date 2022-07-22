@@ -1,0 +1,4 @@
+we use the "git reset" command to move the files from the staged area to the unstaged area and remove the changes.
+
+command:
+git reset filename with extension 
