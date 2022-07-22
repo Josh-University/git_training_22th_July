@@ -1,0 +1,2 @@
+we can delete one or more commits 
+for that we can use the command git rebase -i HEAD~1

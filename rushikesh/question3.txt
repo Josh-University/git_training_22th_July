@@ -1,0 +1,2 @@
+We can merge our multiple commits in one commits by squashing it 
+for that we can use rebase command

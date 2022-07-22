@@ -1,0 +1,7 @@
+Yes, we can have a multiple remote repositories for the same project.
+But there should be only one original alias.
+for further repositories we should have different names.
+
+#Usecases
+1. We can work on multiple repositories for our projects
+2. we can push our work on any one of the repositories.
