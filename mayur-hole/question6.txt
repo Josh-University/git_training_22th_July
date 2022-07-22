@@ -1,0 +1,5 @@
+Answer 6:
+
+If unwanted files were added to the staging area but not yet committed, then a simple reset will do the job:
+
+$ git reset HEAD filename
