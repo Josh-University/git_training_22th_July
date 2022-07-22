@@ -1,0 +1,22 @@
+What does force push do?
+The --force option for git push allows you to override this rule: the commit history on the remote will be forcefully overwritten with your own local history. 
+This is a rather dangerous process, because it's very easy to overwrite (and thereby lose) commits from your colleagues.
+
+When to use force push-
+Things got messy, but the working version in your local machine is the one that should be going forward — you know it, and your team knows it. 
+If you want to prioritize your local branch over the remote one, overwriting any commits made along the way, then by all means go for it.
+
+Revert changes made by force push-
+Simply run git push --force origin last-good-commit:main to restore everything as it was.
+
+git push --force
+
+
+
+Force with lease:
+It is recommended always to use --force-with-lease over --force
+
+git push --force-with-lease
+
+--force-with-lease is a safer option that will not overwrite any work on the remote branch if more commits were added to the remote branch (by another team-member or coworker or what have you). 
+It ensures you do not overwrite someone elses work by force pushing.
