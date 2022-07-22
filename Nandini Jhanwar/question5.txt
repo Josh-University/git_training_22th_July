@@ -1,0 +1,15 @@
+1. Checked git log.
+2. Merged two commits.
+3. Used "git push <repoName> <branchName>" - this was rejected because history was changed.
+4. To use --force-with-lease, used "git push --force-with-lease <repoName> <branchName>".
+5. To use --force, used "git push --force <repoName> <branchName>".
+
+Difference:
+--force changes the content in remote branch. It overwrites the remote branch with the changes on local branch.
+
+--force-with-lease does not overwrites the changes on remote branch.
+
+Usage:
+1. We can use --force when we do not worry about the newly done commits on remote branch, so that the overlapping of history won't matter.
+2. 
+ 
