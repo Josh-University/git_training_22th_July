@@ -1,0 +1,11 @@
+Cherry pick is an useful command in git.
+It is used to commit the specific commit from another branch to our branch.
+we can do that by providing the unique id of that commit.
+
+#Usecases
+1. If we committed in the wrong branch then we can use that same commit for our correct branch instead of doing it from scratch.
+2. If the frontend and backend developers are working on the same data structures they can also use git cherry commit use each others commit if required.
+3. IF the bug is found late, we can use cherry commit to save our time
+
+Syntax
+git cherry-commit <commid id>
