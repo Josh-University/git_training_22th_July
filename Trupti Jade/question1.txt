@@ -14,3 +14,4 @@ Steps:
 4.Switch to your current branch.
 5.Enter command "git cherry-pick commit_id"
 6.Test the result.
+
