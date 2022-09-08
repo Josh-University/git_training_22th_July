@@ -9,7 +9,7 @@ Unstage addeded file :
 6.Enter "git status"
 
 Unstage committed file :
-1.Enter "git status"
+1.Enter "git status".
 2.Enter "git add filename".
 3.Enter "git commit -m "Some meesage"
 4.Enter "git reset HEAD~1"

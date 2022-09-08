@@ -1,4 +1,4 @@
 We can delete commit permanently by using below commands.
-1.To delete single commit, enter "git reset --hard HEAD~1"
+1.To delete single commit, enter "git reset --hard HEAD~1".
 2.To delete multiple commits, enter "git reset --hard HEAD~N", where N are the number of commits from HEAD.
 3.To test deleted commit, enter "git reflog".
