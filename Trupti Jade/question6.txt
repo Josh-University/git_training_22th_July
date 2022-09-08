@@ -1,0 +1,17 @@
+We can unstage staged changes:
+1.git reset command can allow changes to files and directories that have already been committed.
+
+Unstage addeded file :
+2.Enter "git status".
+3.Enter "git add filename".
+4.Enter "git status".
+5.After adding files, enter "git reset" to unstage changes in the staged area.
+6.Enter "git status"
+
+Unstage committed file :
+1.Enter "git status"
+2.Enter "git add filename".
+3.Enter "git commit -m "Some meesage"
+4.Enter "git reset HEAD~1"
+5.Enter "git status"
+
