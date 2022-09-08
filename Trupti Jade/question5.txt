@@ -1,0 +1,7 @@
+Difference between --force and --force-with-lease :
+git push --force changes the content in remote branch. It overwrites the remote branch with the changes on local branch.
+git push --force-with-lease does not overwrites the changes on remote branch.
+
+When to Use Force with Lease :
+1.It is recommended always to use --force-with-lease over --force.
+2.Pushing changes with lease helps us avoid discarding changes pushed by other developers.

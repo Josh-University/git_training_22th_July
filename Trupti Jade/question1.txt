@@ -1,0 +1,16 @@
+Cherry Pick:
+1.Cherry picking is the act of picking a commit from a branch and applying it to another.
+2.To pick some changes into your main project branch from other branches is called cherry-picking.
+3.git cherry-pick <commit id>  
+
+Use cases :
+1.When accidently make a commit in a wrong branch, then instead of getting all commits from that branch will pick only specific commit in that case use cherry pick command.
+2.When want changes made by another team member in current/main branch, use cherry pick command.
+
+Steps:
+1.Make some changes in a file in wrong branch and commit it.
+2.Enter command "git log".
+3.Pick a last commit id.
+4.Switch to your current branch.
+5.Enter command "git cherry-pick commit_id"
+6.Test result.

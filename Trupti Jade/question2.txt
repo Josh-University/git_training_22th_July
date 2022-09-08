@@ -1,0 +1,10 @@
+1.We can add multiple repositories in same project.
+2.With git, using multiple repositories is the only way to work efficiently.
+3.Create repository in our git account.
+4.We can add multiple repositories by creating different remote in your local enviornment.
+5.Enter command "git add remote remote_repo_name remote_repo_url"
+
+
+Use Case:
+1.Instead of storing code data on local disk, we can store it on using remote repositories.
+2.With multiple repositories each team will be able to work independently, and do their work faster. 
