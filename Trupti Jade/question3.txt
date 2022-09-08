@@ -2,4 +2,4 @@ We can combine multiple commits into one.
 1.Enter command "git rebase --interactive HEAD~4" in interactive mode. 4 commits prior to the HEAD. You can select the appropriate commit by its hash.
 2.Type Squash.
 3.Choose between commit messages you want to merge.
-4.Push Changes. 
+4.Push the changes. 
