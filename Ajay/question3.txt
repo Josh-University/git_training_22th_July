@@ -1,0 +1,5 @@
+Combining several commits allows to group together several intermediate commits 
+
+--> git rebase -i HEAD~N                           where N is the last N commits
+
+then we replace pick with squash or s to merge that commit with its previous one

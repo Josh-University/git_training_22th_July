@@ -1,0 +1,15 @@
+multiple remote repositories:
+
+
+By default, the origin is the primary remote repository to synchronize code
+
+we can add multiple remote repositories to the same project    --> git remote add [remote-name-alias] [remote-repo-url]
+
+check the multiple remotes                                     --> git remote -v
+
+we can rename remotes using the command                        --> git remote rename [original-alias] [new-alias]
+
+Use Cases: 
+	1. maintaining mirror images of repos 
+	2. reusing codes from already made repos 
+	3. maintaining a template repository
